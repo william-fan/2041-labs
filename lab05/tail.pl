@@ -16,10 +16,10 @@ foreach $arg (@ARGV) {
         push @files, $arg;
     }
 }
-if (scalar @files == 0){	#if no input files read from stdio
+if (scalar @files == 0){	#if no input files read from stdin
 	$number = $temp;	#reset numbers
 	$lines = 0;	
-	open(F,"-");	#open stdio
+	open(F,"-");	#open stdin
 	while (<F>){	
 		$lines++;	#count no of lines
 	}
