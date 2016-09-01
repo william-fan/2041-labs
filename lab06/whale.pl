@@ -13,4 +13,4 @@ foreach $arg(@total){
 		$pod++;
 	}
 }
-print "$ARGV[0] observations: $pod pods, $count individuals\n"
+print "$ARGV[0] observations: $pod pods, $count individuals\n";
