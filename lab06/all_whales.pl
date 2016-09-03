@@ -6,6 +6,7 @@
 $count = 0;
 $pod = 0;
 $temp = 0;
+
 while ($line = <STDIN>){
 	push @total, $line; #push input into array
 }
