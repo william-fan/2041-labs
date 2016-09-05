@@ -23,7 +23,7 @@ for f in files:
 		if (number <= 0):
 			print line,
 		number -=1
-	print 
+	#print 
   
 
 
